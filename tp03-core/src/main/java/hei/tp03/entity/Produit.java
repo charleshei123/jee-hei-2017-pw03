@@ -13,6 +13,14 @@ public class Produit {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long idProduit;
 
+    public long getIdProduit() {
+        return idProduit;
+    }
+
+    public void setIdProduit(long idProduit) {
+        this.idProduit = idProduit;
+    }
+
     @Column
     private String nom;
 

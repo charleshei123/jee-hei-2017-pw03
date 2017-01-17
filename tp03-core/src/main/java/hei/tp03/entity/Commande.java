@@ -1,6 +1,5 @@
 package hei.tp03.entity;
 
-import org.springframework.data.annotation.Id;
 
 import javax.persistence.*;
 import java.util.List;
@@ -14,7 +13,7 @@ public class Commande {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private long idCommande;
+    private long id;
 
     @Column
     private boolean validee;
@@ -35,5 +34,13 @@ public class Commande {
 
     public void setProduits(List<Produit> produits) {
         this.produits = produits;
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
     }
 }

@@ -45,4 +45,12 @@ public class Client {
     public void setCommandes(List<Commande> commandes) {
         this.commandes = commandes;
     }
+
+    public void setIdClient(long idClient) {
+        this.idClient = idClient;
+    }
+
+    public long getIdClient() {
+        return idClient;
+    }
 }

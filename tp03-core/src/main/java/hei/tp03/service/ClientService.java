@@ -9,7 +9,7 @@ import java.util.List;
  */
 public interface ClientService {
 
-     List<Client> findByNom() ;
+     List<Client> findByNom(String nom) ;
 
      void saveClient(Client client);
 

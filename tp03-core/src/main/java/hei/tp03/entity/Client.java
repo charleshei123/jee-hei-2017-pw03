@@ -37,4 +37,12 @@ public class Client {
     public Client() {
 
     }
+
+    public String getNom() {
+        return nom;
+    }
+
+    public void setCommandes(List<Commande> commandes) {
+        this.commandes = commandes;
+    }
 }

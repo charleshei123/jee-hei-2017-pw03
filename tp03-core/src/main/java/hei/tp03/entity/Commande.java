@@ -32,4 +32,8 @@ public class Commande {
 
     public Commande() {
     }
+
+    public void setProduits(List<Produit> produits) {
+        this.produits = produits;
+    }
 }

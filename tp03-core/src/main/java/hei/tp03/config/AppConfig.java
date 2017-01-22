@@ -17,7 +17,7 @@ public class AppConfig {
     public Properties dbProperties(){
       Properties proprietes = new Properties();
         proprietes.setProperty("driverClass","com.mysql.jdbc.Driver");
-        proprietes.setProperty("jdbcUrl","jdbc:mysql://localhost:3306/hei_tp03");
+        proprietes.setProperty("jdbcUrl","jdbc:mysql://localhost:3306/heitp03");
         proprietes.setProperty("username","root");
         proprietes.setProperty("password","");
 

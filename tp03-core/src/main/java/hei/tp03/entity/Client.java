@@ -42,6 +42,14 @@ public class Client {
         return nom;
     }
 
+    public String getPrenom() {
+        return prenom;
+    }
+
+    public void setPrenom(String prenom) {
+        this.prenom = prenom;
+    }
+
     public void setCommandes(List<Commande> commandes) {
         this.commandes = commandes;
     }
